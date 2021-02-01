@@ -1,0 +1,113 @@
+.header {
+  margin-top: 50px;
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-left: 15%;
+  }
+  .profile-pic-container {
+    margin-top: 5px;
+    font-family: "bebasNeueRegular";
+    text-align: end;
+    margin-left: -15%;
+    .profile-pic {
+      width: 50px;
+      height: auto;
+    }
+  }
+}
+.main-container {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  height: 500px;
+  .main {
+    margin-top: 20px;
+    background-image: radial-gradient(farthest-corner at 100px 10px, rgb(255, 51, 51) 0%, rgb(0, 0, 0) 100%);
+    height: 100%;
+    .main-title {
+      margin-top: 100px;
+      margin-left: 75px;
+      color: white;
+      font-family: "bebasNeueBold";
+      .big-title {
+        font-size: 70px;
+        line-height: 0.9;
+      }
+      .small-title {
+        font-size: 30px;
+      }
+      .hit-it {
+        margin-left: -30px;
+        width: 100px;
+        height: auto;
+      }
+    }
+    .artists {
+      margin-top: 100px;
+      .artist-pic {
+        height: 150px;
+        width: 150px;
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
+        .artist-photo {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.second-main {
+  margin-top: 120px;
+  font-family: "bebasNeueBold";
+  .second-main-title {
+    margin-left: 10%;
+  }
+  .second-main-text1 {
+    margin-left: 10%;
+  }
+  .second-main-text2 {
+    margin-left: 10%;
+  }
+  .second-main-start-composing {
+    margin-left: 10%;
+    color: rgb(114, 5, 5);
+  }
+}
+.footer {
+  font-family: "bebasNeueBold";
+  color: white;
+  margin-top: 100px;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  background-color: rgb(20, 20, 20);
+  height: 300px;
+  .footer-logo {
+    margin-top: 35px;
+    margin-left: 10%;
+    width: 100px;
+    height: 100%;
+  }
+  .footer-buttons {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    height: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    .main {
+      .artists {
+        .artist-pic {
+          height: 100px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
